@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  .nav {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  .main-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .main-menu a {
+    display: block;
+    padding: 10px;
+    background-color: rgb(112, 10, 10);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+  }
+  .main-menu a:hover {
+    cursor: pointer;
+    background-color: rgb(221, 117, 117);
+  }
+ 
+  .categories_list{
+    display: none;
+    margin-left: 260px;
+    width: 150px;
+    margin-top: -215px;
+     }
+  .list:hover > .categories_list{
+    display: block;
+    }
+
+ .categories_list li{
+  text-decoration:none;
+  list-style: none;
+  text-align: center;
+ }
