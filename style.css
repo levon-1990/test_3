@@ -1,44 +1,45 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    
   }
-  .nav {
-    width: 300px;
-    margin-left: 30px;
-    margin-top: 50px;
+  .menu{
+    width: 410px;
+    height: 70px;
+    background-color:rgb(117, 85, 62);
+    margin: 0 auto;
   }
-  .main-menu {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  .menu_list_item{
+   text-decoration: none;
+   text-align: center;
+   text-decoration: none;
   }
-  .main-menu a {
-    display: block;
-    padding: 10px;
-    background-color: rgb(112, 10, 10);
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-bottom: 1px solid #ccc;
-  }
-  .main-menu a:hover {
-    cursor: pointer;
-    background-color: rgb(221, 117, 117);
-  }
- 
-  .categories_list{
-    display: none;
-    margin-left: 260px;
-    width: 150px;
-    margin-top: -215px;
-     }
-  .list:hover > .categories_list{
-    display: block;
+  .menu_list li{
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 70px;
+   background-color: rgb(26, 26, 94);
+   list-style: none;
+   line-height: 60px;
+   padding-left: 5px;
     }
-
- .categories_list li{
-  text-decoration:none;
-  list-style: none;
-  text-align: center;
- }
+    .menu_list_1 li{
+    text-align: center;
+    margin-left: -50px;
+        }
+        .menu_list_1 {
+          display:none;
+        }
+    .menu_list_2:hover > .menu_list_1{
+      display: block;
+    }
+  .test{
+    margin-left: 80px;
+    margin-top: -50px;
+    background-color: rgb(102, 21, 21);
+  }
+  .test_1{
+    margin-left: 80px;
+    margin-top: -60px;
+  }
