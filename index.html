@@ -5,59 +5,20 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-
-    <div class="container">
-      <div class="article">
-        <h2 class="article_title">Lorem ipsum dolor sit amet.</h2>
-        <p class="article_text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla odio laudantium aperiam provident.
-          Omnis reiciendis atque beatae! Similique enim, ut illum quaerat vel molestiae? Quas iure ut ullam repellat ex?
-        </p>
-       
-        <div class="article_footer">
-          <span id="date_1">04.05.2023</span>
-          <a href="#">Read More</a>
-        </div>
-      </div>
-
-      <div class="article">
-        <h2 class="article_title">Lorem ipsum dolor sit amet.</h2>
-        <p class="article_text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla odio laudantium aperiam provident.
-          Omnis reiciendis atque beatae! Similique enim, ut illum quaerat vel molestiae? Quas iure ut ullam repellat ex?
-        </p>
-        <div class="article_footer">
-          <span id="date_2">04.05.2023</span>
-          <a href="#">Read More</a>
-        </div>
-      </div>
-
-      <div class="article">
-        <h2 class="article_title">Lorem ipsum dolor sit amet.</h2>
-        <p class="article_text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla odio laudantium aperiam provident.
-          Omnis reiciendis atque beatae! Similique enim, ut illum quaerat vel molestiae? Quas iure ut ullam repellat ex?
-        </p>
-        <div class="article_footer">
-          <span id="date_3">04.05.2023</span>
-          <a href="#">Read More</a>
-        </div>
-      </div>
-
-      <div class="article">
-        <h2 class="article_title">Lorem ipsum dolor sit amet.</h2>
-        <p class="article_text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla odio laudantium aperiam provident.
-          Omnis reiciendis atque beatae! Similique enim, ut illum quaerat vel molestiae? Quas iure ut ullam repellat ex?
-        </p>
-        <div class="article_footer">
-          <span id="date_4">04.05.2023</span>
-          <a href="#">Read More</a>
-        </div>
-      </div>
-
-      <div class="clear"></div>
+    <div id="chat-container">
+     <div id="chat-messages">
+     <p id="person"></p><span id="date"></span>
+    </div>   
+    <div id="chat-input">
+      <input type="text" id="message-input" placeholder="type your message">
+      <button id="send-button"> Send</button>
     </div>
+<div class="clear"></div>
+
+    <div id="error-message"></div>
+
+    </div>
+
 
     <script src="main.js"></script>
   </body>
