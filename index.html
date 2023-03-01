@@ -4,22 +4,26 @@
     <title>Home page</title>
     <link rel="stylesheet" href="main.css">
   </head>
-  <body>
-    <div id="chat-container">
-     <div id="chat-messages">
-     <p id="person"></p><span id="date"></span>
-    </div>   
-    <div id="chat-input">
-      <input type="text" id="message-input" placeholder="type your message">
-      <button id="send-button"> Send</button>
+  <div id="image-slider">
+    <div class="container">
+      <div class="active">
+      <img src="img/foto_1.jpg"  alt="">
+      <p>1.Lorem ipsum dolor sit amet consectetur.</p>
     </div>
-<div class="clear"></div>
-
-    <div id="error-message"></div>
-
+    <div>
+      <img src="img/foto_2.jpg"  alt="">
+      <p>2.Lorem ipsum dolor sit amet consectetur.</p>
     </div>
-
-
+      <div>
+      <img src="img/foto_3.jpg"  alt="">
+      <p>3.Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    </div>
+    <div class="btns">
+      <button class="prev">Back</button>
+      <button class="next">Next</button>
+    </div>
+   </div>
     <script src="main.js"></script>
   </body>
 </html>
